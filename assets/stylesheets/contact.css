@@ -1,7 +1,7 @@
 .contact {
 }
 
-.contact-title, .contact-message, .contact-email {
+.contact-header, .contact-message, .contact-email {
   margin-bottom: 1rem;
   /* color: white; */
 }
@@ -11,8 +11,7 @@
   padding-right: 1.5rem;
 }
 
-.contact-title {
-  margin-top: 2rem;
+.contact-header {
   font-size: 2rem;
   text-align: center;
 }

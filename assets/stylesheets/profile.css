@@ -10,8 +10,11 @@
 
 .profile-pic {
   max-width: 40%;
+  box-shadow: 2px 2px 7px rgb(209, 209, 209);
 }
 
 .profile-content {
-  margin: 1rem;
+  margin: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(97, 97, 97);
 }
