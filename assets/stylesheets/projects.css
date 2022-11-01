@@ -1,0 +1,42 @@
+.projects {
+}
+
+.projects-title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.project-card {
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 7px rgb(209, 209, 209);
+  margin: 2vh 4vh 2vh 4vh;
+  background-color: white;
+}
+
+.project-image {
+  width: 80vw;
+}
+
+.project-body {
+  width: 80vw;
+}
+
+.project-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  font-size: large;
+  font-weight: 500;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.project-description {
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  padding-bottom: 3rem;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(97, 97, 97);
+}

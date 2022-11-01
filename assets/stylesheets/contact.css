@@ -1,0 +1,30 @@
+.contact {
+}
+
+.contact-title, .contact-message, .contact-email {
+  margin-bottom: 1rem;
+  /* color: white; */
+}
+
+.contact-email, .contact-message {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.contact-title {
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.contact-icons {
+  margin-bottom: 2rem;
+}
+
+.contact-email {
+  text-align: center;
+}
+
+.contact-photo {
+  display: none;
+}

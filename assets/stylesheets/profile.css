@@ -1,0 +1,17 @@
+.profile {
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+}
+
+.profile-header {
+  font-size: 30px;
+}
+
+.profile-pic {
+  max-width: 40%;
+}
+
+.profile-content {
+  margin: 1rem;
+}

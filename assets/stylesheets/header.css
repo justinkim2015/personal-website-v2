@@ -1,0 +1,41 @@
+.header {
+  height: 7vh;
+  background-color: white;
+}
+
+#hamburger-input {
+  visibility: hidden;
+}
+
+#hamburger-menu {
+    width: 25px;
+    height: 20px;
+    display: block;
+    background: linear-gradient(
+      to bottom, 
+      #000000, #000000 20%, 
+      white 20%, white 40%, 
+      #000000 40%, #000000 60%, 
+      white 60%, white 80%, 
+      #000000 80%, #000000 100%
+    );
+}
+
+#hamburger-menu #dropdown-menu {
+  padding: 10px;
+  top: 5vh;
+  visibility: hidden;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  color: black;
+  background-color: white;
+  transition: 0.3s;
+  box-shadow: 3px 3px 3px rgb(170, 170, 170);
+
+}
+
+#hamburger-input:checked + #hamburger-menu #dropdown-menu {
+  visibility: visible;
+  top: 7vh;
+}
