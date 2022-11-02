@@ -20,17 +20,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet"> 
-
+  <link href="https://fonts.googleapis.com/css2?family=Poor+Story&family=Share+Tech&display=swap" rel="stylesheet">     
   <title>Justin's Porfolio</title>
 </head>
 
 <body>
-  <nav class="navbar sticky">
+  <nav class="navbar sticky flex">
     <div class="container">
       <input type="checkbox" id="hamburger-input" class="burger-shower" />
       <label id="hamburger-menu" for="hamburger-input" class="padding">
         <nav id="dropdown-menu">
-          <ul>
+          <ul class="links">
             <li><a href="#profile-header">About me</a></li>
             <li><a href="#projects-header">Projects</a></li>
             <li><a href="#contact-header">Contact me</a></li>
@@ -40,24 +40,36 @@
     </div>
   </nav>
 
-  <img src="assets/images/img_5terre_wide.jpg" alt="banner-pic" class="banner">
+  <img src="assets/images/rainbow-bridge.jpg" alt="banner-pic" class="banner">
 
   <section class="profile flex">
     <h2 class="profile-header flex" id="profile-header">About Justin Kim</h2>
-    <img src="assets/images/AvatarMaker.png" alt="picture-of-justin" class="profile-pic">
-    <p class="profile-content">
-      Just an guy from Hawaii living in Tokyo who likes to make stuff with 
-      his computer. My current focus is on delivering elegant and scaleable
-      websites via Ruby on Rails.  Please keep scrolling to see some of my 
-      projects and get in touch with me!
-    </p>
+    <div class="flex-container">
+      <img src="assets/images/me.JPG" alt="picture-of-justin" class="profile-pic">
+      <p class="profile-content">
+        Just an guy from Hawaii living in Tokyo who likes to make stuff with
+        his computer. My current focus is on delivering elegant and scaleable
+        websites via Ruby on Rails.  Please keep scrolling to see some of my
+        projects and get in touch with me!
+      </p>
+    </div>
+  </section>
+  
+  <section class="skills flex">
+    <h2 class="skills-header flex">My Skills</h2>
+    <ul class="flex">
+      <li>Ruby On Rails</li>
+      <li>Javascript</li>
+      <li>Git & Github</li>
+      <li>HTML & CSS</li>
+    </ul>
   </section>
 
-  <section class="projects flex">
-    <h2 class="project-header flex" id="projects-header">Projects:</h2>
+  <h2 class="project-header flex" id="projects-header">Projects</h2>
+  <section class="projects flex grid">
 
     <div class="project-card flex">
-      <img src="assets/images/placeholder.jpg" alt="facebook" class="project-image">
+      <img src="assets/images/railsbook.png" alt="facebook" class="project-image">
       <div class="project-body flex">
         <div class="project-name">
           <h3>RailsBook</h3>
@@ -70,7 +82,7 @@
     </div>
 
     <div class="project-card flex">
-      <img src="assets/images/placeholder.jpg" alt="facebook" class="project-image">
+      <img src="assets/images/rubychess.png" alt="facebook" class="project-image">
       <div class="project-body flex">
         <div class="project-name">
           <h3>Chess Game</h3>
@@ -86,7 +98,7 @@
       <img src="assets/images/placeholder.jpg" alt="facebook" class="project-image">
       <div class="project-body flex">
         <div class="project-name">
-          <h3>Karaoke Planner</h3>
+          <h3>Karaoke Planner(WIP)</h3>
           <a href="https://www.linkedin.com/in/justin-kim-809612ba/" class="devicon-github-original colored icon-small"></a>
         </div>
         <div class="project-description">
@@ -109,7 +121,7 @@
       </div>
     </div>
 
-    <img src="assets/images/placeholder.jpg" alt="">
+    <img src="assets/images/laptop.jpg" alt="">
   </footer>
 </body>
 

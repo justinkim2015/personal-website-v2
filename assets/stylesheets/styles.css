@@ -7,12 +7,21 @@ html {
 }
 
 body {
-  font-family: 'Playfair', sans-serif;
+  font-family: 'Share Tech', sans-serif;
+  background-color: #5f6a75;
+  color: #EFF2F1;
 }
 
 .flex {
   display: flex;
   flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .icons {
@@ -31,13 +40,14 @@ body {
 }
 
 .banner {
-  width: 100%;
-  margin-top: 8vh;
+  width: 160%;
+  margin-top: 7vh;
 }
 
-.project-header, .contact-header, .profile-header {
+.project-header, .contact-header, .profile-header, .skills-header {
   width: 100vw;
-  height: 13vh;
+  height: 10vh;
+  margin-top: 2vh;
   align-items: center;
   justify-content: center;
   font-size: 35px;

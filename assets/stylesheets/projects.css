@@ -9,13 +9,15 @@
 .project-card {
   align-items: center;
   justify-content: center;
-  box-shadow: 2px 2px 7px rgb(209, 209, 209);
+  box-shadow: 3px 3px 6px rgb(39, 39, 39);
   margin: 2vh 4vh 2vh 4vh;
-  background-color: white;
+  background-color: #c8d2d3;
+  padding: 1.5rem;
 }
 
 .project-image {
   width: 60vw;
+  box-shadow: 3px 3px 6px rgb(177, 177, 177);
 }
 
 .project-body {
@@ -31,12 +33,15 @@
   font-weight: 500;
   padding-left: 2rem;
   padding-right: 2rem;
+  color: #2B2D42;
 }
 
 .project-description {
   padding-left: 1.4rem;
   padding-right: 1.4rem;
-  padding-bottom: 3rem;
-  font-family: 'Roboto', sans-serif;
-  color: rgb(97, 97, 97);
+  color: #2B2D42;
+}
+
+/* Tablet */
+@media (min-width: 480px) {
 }
