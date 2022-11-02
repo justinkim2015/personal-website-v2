@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 3px 3px 6px rgb(39, 39, 39);
-  margin: 2vh 4vh 2vh 4vh;
+  margin: 0rem 3rem 1rem 3rem;
   background-color: #c8d2d3;
   padding: 1.5rem;
 }
@@ -31,17 +31,17 @@
   height: 5rem;
   font-size: large;
   font-weight: 500;
-  padding-left: 2rem;
-  padding-right: 2rem;
   color: #2B2D42;
 }
 
 .project-description {
-  padding-left: 1.4rem;
-  padding-right: 1.4rem;
+  padding-top: 0.5vh;
   color: #2B2D42;
 }
 
 /* Tablet */
 @media (min-width: 480px) {
+  .grid {
+    
+  }
 }

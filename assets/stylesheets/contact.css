@@ -1,23 +1,36 @@
 .contact {
+  margin-top: 4vh;
 }
 
-.contact-header, .contact-message, .contact-email {
-  margin-bottom: 1rem;
-  /* color: white; */
+.contact-header, .contact-message {
+  margin-bottom: 2vh;
 }
 
 .contact-email, .contact-message {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+}
+
+.contact-banner {
+  width: 100%;
+  height: 40%;
+  top: 284vh;
 }
 
 .contact-header {
+  color: #23CE6B;
   font-size: 2rem;
   text-align: center;
 }
 
+.contact-info-box {
+  color: #EFF2F1;
+  background-color: #5F6A75;
+  box-shadow: 2px 2px 3px rgb(39, 39, 39);
+  font-size: 15px;
+  margin: 2rem 3rem 2rem 3rem;
+  padding: 1rem;
+}
+
 .contact-icons {
-  margin-bottom: 2rem;
 }
 
 .contact-email {

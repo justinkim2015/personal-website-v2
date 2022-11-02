@@ -2,12 +2,19 @@
   align-items: center;
   justify-content: center;
   gap: 2vh;
-  /* background-image: url(../images/rainbow-bridge.jpg);
-  margin-top: 7vh; */
+  padding-top: 2vh;
+  margin-top: 7vh;
 }
 
 .profile-header {
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.subheader {
+  margin-top: -3vh;
+  margin-bottom: 1vh;
+  font-size: 17px;
 }
 
 .profile-pic {
@@ -19,6 +26,16 @@
 .profile-content {
   margin: 1.5rem;
   color: #EFF2F1;
+  background-color: #5F6A75;
+  box-shadow: 2px 2px 3px rgb(39, 39, 39);
+  padding: 1rem;
+  font-size: 23px;
+  margin: 2rem 3rem 2rem 3rem;
+}
+
+.profile-banner {
+  width: 250%;
+  height: 60%;
 }
 
 /* Tablet */

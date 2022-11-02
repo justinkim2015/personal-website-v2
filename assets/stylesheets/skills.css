@@ -1,0 +1,19 @@
+.skills-banner {
+  width: 160%;
+  top: 72vh;
+}
+
+.skills-header {
+  color: #23CE6B;
+}
+
+.skills-list {
+  margin: 0rem 3rem 2rem 3rem;
+  align-items: baseline;
+  font-size: 20px;
+  background-color: #5F6A75;
+  box-shadow: 2px 2px 3px rgb(39, 39, 39);
+  padding: 1rem;
+  gap: 1vh;
+}
+
