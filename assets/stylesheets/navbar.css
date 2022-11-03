@@ -80,10 +80,17 @@
 
   .desktop-container {
     visibility: visible;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: auto;
   }
 
   li {
     font-size: 25px;
+  }
+
+  .logo {
+    width: 5rem;
   }
 }
