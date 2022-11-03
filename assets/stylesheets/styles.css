@@ -53,4 +53,12 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 35px;
+  font-weight: 700;
+}
+
+/* Desktop */
+@media (min-width: 1000px) {
+  .project-header, .profile-header, .skills-header {
+    font-size: 50px;
+  }
 }

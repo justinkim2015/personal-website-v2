@@ -1,5 +1,5 @@
 .skills-banner {
-  width: 160%;
+  width: 100%;
   top: 72vh;
 }
 
@@ -37,3 +37,19 @@
     top: 70.5vh;
   }  
 }
+
+/* Desktop */
+@media (min-width: 1000px) {
+  .skills-header {
+    margin-top: 2vh;
+  }
+
+  .skills-list {
+    margin: 1.5vh 30vw 5vh 30vw }
+
+  .skills-banner {
+    width: 100%;
+    top: 90vh;
+  }  
+}
+

@@ -58,3 +58,26 @@
     padding: 1rem;
   }  
 }
+
+/* Desktop */
+@media (min-width: 1000px) {
+  .contact-banner {
+    width: 100%;
+    height: 60%;
+    top: 325vh;
+  }  
+
+  .contact {
+    margin: 25vh 30vw 0vh 30vw;
+  }
+
+  .contact-header {
+    margin-bottom: 4vh;
+  }
+  
+  .contact-info-box {
+    font-size: 25px;
+    margin: 2rem 3rem 2rem 3rem;
+    padding: 6rem;
+  }  
+}

@@ -66,5 +66,24 @@
   width: 5vh;
 }
 
-@media (min-width: 480px) {
+.desktop-container {
+  visibility: hidden;
+  height: 0%;
+}
+
+/* Desktop */
+@media (min-width: 1000px) {
+  .container {
+    visibility: hidden;
+    height: 0%;
+  }
+
+  .desktop-container {
+    visibility: visible;
+    height: auto;
+  }
+
+  li {
+    font-size: 25px;
+  }
 }
