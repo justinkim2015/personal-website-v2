@@ -1,8 +1,8 @@
 .navbar {
   height: 7vh;
   justify-content: center;
-  box-shadow: 1px 1px 1px rgb(209, 209, 209);
-  background-color: #E8F1F2;
+  box-shadow: 1px 1px 1px rgb(50, 50, 50);
+  background-color: #5f6a75;
 }
 
 #hamburger-input {
@@ -16,11 +16,11 @@
     display: block;
     background: linear-gradient(
       to bottom, 
-      #000000, #000000 20%, 
-      white 20%, white 40%, 
-      #000000 40%, #000000 60%, 
-      white 60%, white 80%, 
-      #000000 80%, #000000 100%
+      #EFF2F1, #EFF2F1 20%, 
+      #5f6a75 20%, #5f6a75 40%, 
+      #EFF2F1 40%, #EFF2F1 60%, 
+      #5f6a75 60%, #5f6a75 80%, 
+      #EFF2F1 80%, #EFF2F1 100%
     );
 }
 
@@ -32,10 +32,10 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  color: black;
-  background-color: #E8F1F2;
+  color: #EFF2F1;
+  background-color: #5f6a75;
   transition: 0.3s;
-  box-shadow: 3px 3px 3px rgb(170, 170, 170);
+  box-shadow: 1px 1px 1px rgb(50, 50, 50);
 }
 
 #hamburger-input:checked + #hamburger-menu #dropdown-menu {
@@ -60,6 +60,10 @@
   justify-content: space-around;
   height: 3vh;
   width: 100vw;
+}
+
+.logo {
+  width: 5vh;
 }
 
 @media (min-width: 480px) {

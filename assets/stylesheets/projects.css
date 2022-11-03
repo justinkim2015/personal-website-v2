@@ -41,7 +41,32 @@
 
 /* Tablet */
 @media (min-width: 480px) {
+  .projects-title {
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 5vh;
+  }
+
   .grid {
-    
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    gap: 10vw;
+    align-self: center;
+  }
+
+  .project-image {
+    width: 35vw;
+  }
+
+  .project-card {
+    width: 35vw;
+  }
+
+  .project-body {
+    width: 35vw;
+  }
+
+  .skills-banner {
+    height: 120%;
   }
 }

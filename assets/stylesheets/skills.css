@@ -17,3 +17,23 @@
   gap: 1vh;
 }
 
+.skill {
+  color: #23CE6B;
+}
+
+/* Tablet */
+@media (min-width: 480px) {
+  .skills-header {
+    margin-top: 2vh;
+    font-size: 50px;
+  }
+
+  .skills-list {
+    margin-top: 1.5vh;
+  }
+
+  .skills-banner {
+    width: 100%;
+    top: 70.5vh;
+  }  
+}
