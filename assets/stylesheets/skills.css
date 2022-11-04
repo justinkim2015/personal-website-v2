@@ -1,10 +1,12 @@
 .skills-banner {
   width: 100%;
-  top: 72vh;
+  height: 40%;
+  top: 105vh;
 }
 
 .skills-header {
   color: #23CE6B;
+  margin-top: 3rem;
 }
 
 .skills-list {

@@ -1,0 +1,55 @@
+.typed-out {
+  overflow: hidden;
+  border-right: .1em solid #23CE6B;
+  white-space: nowrap;
+  font-size: 2rem;
+  width: 0;
+  animation: 
+    typing 1.5s steps(14, end) .5s forwards,
+    vanish 0.5s linear 2s forwards;
+}
+
+.typed-out-two {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 1rem;
+  width: 0;
+  animation: 
+    create-cursor .5s linear 2s forwards,
+    typing 2.2s steps(40, end) 2.6s forwards,
+    blink 1.7s infinite 4s;
+}
+
+.appear {
+  opacity: 0%;
+  animation: 1.5s linear 5.8s forwards running appear;
+}
+
+.ani-container {
+  display: inline-block;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: #23CE6B; }
+}
+
+@keyframes vanish {
+  from { border-color: #23CE6B;}
+  to { border-color: transparent; }
+}
+
+@keyframes appear {
+  from { opacity: 0; }
+  to { opacity: 100%; }
+}
+
+@keyframes create-cursor {
+  from { border-color: transparent;}
+  to {   border-right: .1em solid #23CE6B; }
+}

@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="assets/stylesheets/skills.css">
   <link rel="stylesheet" href="assets/stylesheets/projects.css">
   <link rel="stylesheet" href="assets/stylesheets/contact.css">
+  <link rel="stylesheet" href="assets/stylesheets/animations.css">
 
   <!-- Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> 
@@ -41,9 +42,9 @@
       <label id="hamburger-menu" for="hamburger-input" class="padding">
         <nav id="dropdown-menu">
           <ul class="links">
-            <li><a href="#profile-header">About me</a></li>
+            <li><a href="#profile-header">About</a></li>
             <li><a href="#projects-header">Projects</a></li>
-            <li><a href="#contact-header">Contact me</a></li>
+            <li><a href="#contact-header">Contact</a></li>
           </ul>
         </nav>
       </label>
@@ -52,7 +53,7 @@
     <div class="desktop-container flex">
       <img src="assets/images/favicon.jpg" alt="logo" class="logo">
       <ul class="links">
-        <li><a href="#profile-header">About me</a></li>
+        <li><a href="#profile-header">About</a></li>
         <li><a href="#projects-header">Projects</a></li>
         <li><a href="#contact-header">Contact</a></li>
       </ul>
@@ -64,11 +65,15 @@
   <img src="assets/images/laptop.jpg" alt="picture of laptop" class="skills-banner background">
   <img src="assets/images/office.jpg" alt="picture of envelopes" class="contact-banner background">
   <section class="profile flex">
-    <h2 class="profile-header flex" id="profile-header">I'm Justin Kim.</h2>
-    <h3 class="subheader">Ruby on Rails Web Developer</h3>
-    <div class="flex-container">
+    <h2 class="ani-container">
+      <div class="typed-out">I'm Justin Kim.</div>
+    </h2>
+    <div class="ani-container">
+      <h3 class="typed-out-two">Ruby on Rails Web Developer</h3>
+    </div>
+    <div class="flex-container appear">
       <img src="assets/images/me.JPG" alt="picture-of-justin" class="profile-pic">
-      <p class="profile-content">
+      <p class="profile-content ">
         Just an guy from Hawaii living in Tokyo who likes to make stuff with
         his computer. My current focus is on delivering elegant and scaleable
         websites via Ruby on Rails.  Please keep scrolling to see some of my
@@ -159,7 +164,6 @@
         </div>
       </div>
     </div>
-  </footer>
+  </footer>  
 </body>
-
 </html>
