@@ -95,6 +95,7 @@
   }
 
   .skills-banner {
-    height: 225%;
+    height: 235%;
+    top: 108vh;
   }
 }

@@ -3,6 +3,7 @@
   justify-content: center;
   box-shadow: 1px 1px 1px rgb(50, 50, 50);
   background-color: #5f6a75;
+  z-index: 50;
 }
 
 #hamburger-input {

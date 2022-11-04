@@ -47,8 +47,6 @@ body {
   overflow: hidden;
 }
 
-
-
 .project-header, .profile-header, .skills-header {
   width: 100vw;
   height: 10vh;
@@ -56,19 +54,6 @@ body {
   justify-content: center;
   font-size: 35px;
   font-weight: 700;
-}
-
-a {
-  box-shadow: inset 0 0 0 0 #23CE6B;
-  color: #23CE6B;
-  margin: 0 -.25rem;
-  padding: 0 .25rem;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-
-a:hover {
-  box-shadow: inset 100px 0 0 0 #23CE6B;
-  color: white;
 }
 
 /* Desktop */

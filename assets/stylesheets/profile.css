@@ -1,10 +1,18 @@
 .profile {
   align-items: center;
   justify-content: center;
-  gap: 2vh;
-  /* padding-top: 2vh;
-  margin-top: 7vh; */
-  height: 100vh;
+  gap: 3vh;
+  margin: 7vh 0vw 10vh 0vw;
+  height: 75vh;
+  padding-top: 5vh;
+}
+
+.typed-out {
+  font-size: 2rem;
+}
+
+.typed-out-two {
+  font-size: 1rem;
 }
 
 .profile-header {
@@ -42,13 +50,25 @@
 
 /* Tablet */
 @media (min-width: 480px) {
+  .profile {
+    margin-top: 0;
+    padding-top: 0%;
+  }
+
   .flex-container {
     flex-direction: row;
     margin-left: 4rem;
   }
 
+  .typed-out {
+    font-size: 3rem;
+  }
+
+  .typed-out-two {
+    font-size: 1.5rem;
+  }
+
   .profile-content {
-    /* margin: 4rem; */
     font-size: 1.2rem;
   }  
 
@@ -61,19 +81,22 @@
 /* Desktop */
 @media (min-width: 1000px) {
   .profile {
-    /* padding-top: 5vh; */
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin: 0vh 20vw 20vh 20vw;
+    padding-top: 10vh;
+    gap: 3vh;
   }
 
   .profile-content {
     font-size: 2rem;
   }  
 
-  /* .profile-banner {
-    width: 100%;
-    height: 75%;
-  } */
+  .typed-out {
+    font-size: 5rem;
+  }
+
+  .typed-out-two {
+    font-size: 2rem;
+  }
 
   .profile-header {
     font-size: 5rem;
