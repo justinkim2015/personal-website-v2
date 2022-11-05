@@ -1,11 +1,17 @@
+.skills {
+  height: 100vh;
+}
+
 .skills-banner {
-  width: 100%;
-  height: 40%;
-  top: 115vh;
+  height: 100vh;
+  width: 100vw;
+  top: 110vh;
 }
 
 .skills-header {
   color: #23CE6B;
+  margin-top: 15vh;
+  margin: 19vh 0vw 5vh 0vw;
 }
 
 .skills-list {
@@ -16,6 +22,7 @@
   box-shadow: 2px 2px 3px rgb(39, 39, 39);
   padding: 1rem;
   gap: 1vh;
+  border-radius: 1rem;
 }
 
 .skill {
@@ -24,23 +31,31 @@
 
 /* Tablet */
 @media (min-width: 480px) {
+
   .skills-header {
-    margin-top: 2vh;
+    margin: 40vh 0vw 5vh 0vw;
     font-size: 50px;
   }
 
   .skills-list {
-    margin-top: 1.5vh;
+    margin: 0vh 20vw 3vh 20vw;
   }
 
   .skills-banner {
-    width: 100%;
+    height: 75vh;
+    width: 100vw;
     top: 102vh;
-  }  
+  }
 }
 
 /* Desktop */
 @media (min-width: 1000px) {
+
+  .skills-box {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
   .skills-header {
     margin-top: 6vh;
   }

@@ -1,17 +1,20 @@
-.projects {
+.project-header {
+  margin: 15vh 0vw 5vh 0vw;
 }
 
 .project-card {
   align-items: center;
   justify-content: center;
   box-shadow: 3px 3px 6px rgb(39, 39, 39);
-  margin: 0rem 3rem 1rem 3rem;
+  margin: 0rem 1rem 3rem 1rem;
   background-color: #c8d2d3;
   padding: 1.5rem;
+  border-radius: 1rem;
 }
 
 .project-image {
-  width: 60vw;
+  width: 80vw;
+  border-radius: 1rem;
   box-shadow: 3px 3px 6px rgb(177, 177, 177);
 }
 
@@ -36,30 +39,30 @@
 
 /* Tablet */
 @media (min-width: 480px) {
+  .projects {
+    align-items: center;
+  }
+
   .project-header {
+    margin: 55vh 0vw 5vh 0vw;
     font-size: 3rem;
   }
 
-  .grid {
-    display: grid;
-    grid-template-columns: 40vw 40vw;
-    justify-content: center;
-    gap: 4vw;
-  }
-
   .project-image {
-    width: 30vw;
-    height: 30vw;
-    object-fit: cover;
+    width: 35vw;
+    height: 35vw;
+    object-fit: cover;    
   }
 
   .project-card {
-    width: 30vw;
+    flex-direction: row;
+    width: 75vw;
     margin: 1rem
   }
 
   .project-body {
     width: 30vw;
+    margin-left: 5vw;
   }
 
   .skills-banner {
@@ -69,12 +72,6 @@
 
 /* Desktop */
 @media (min-width: 1000px) {
-  .grid {
-    display: grid;
-    grid-template-columns: 35vw 35vw;
-    align-self: center;
-  }
-
   .project-header {
     margin-bottom: 10vh;
   }
@@ -83,10 +80,6 @@
     height: 5rem;
     font-size: 30px;
     font-weight: 500;
-  }
-  
-  .project-body {
-    margin: 3vh 0vw 3vh 0vw;
   }
   
   .project-description {
