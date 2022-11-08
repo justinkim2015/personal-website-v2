@@ -35,6 +35,7 @@
 .project-description {
   padding-top: 0.5vh;
   color: #2B2D42;
+  overflow: scroll;
 }
 
 /* Tablet */
@@ -44,7 +45,7 @@
   }
 
   .project-header {
-    margin: 50vh 0vw 5vh 0vw;
+    margin: 40vh 0vw 5vh 0vw;
     font-size: 3rem;
   }
 
@@ -74,24 +75,29 @@
 @media (min-width: 1000px) {
   .projects {
     display: grid;
+    grid-template-columns: 35vw 35vw;
+    gap: 5vw;
+    align-items: center;
+    justify-content: center;
   }
 
   .project-card {
     flex-direction: column;
-    max-width: 38vw;
-    min-height: 38vw;
+    max-width: 30vw;
+    height: 65vh;
+    padding: 4rem;
   }
 
   .project-image {
-    width: 35vw;
-    height: 35vw;
+    width: 25vw;
+    height: 25vw;
     margin: 0%;
   }
 
   .project-body {
-    margin: 0;
+    margin: 0%;
   }
-  
+
   .project-header {
     margin-bottom: 10vh;
   }
@@ -103,8 +109,7 @@
   }
   
   .project-description {
-    font-size: 26px;
-    margin: 0%;
+    font-size: 24px;
   }
 
   .skills-banner {
