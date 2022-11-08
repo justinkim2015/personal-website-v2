@@ -50,23 +50,26 @@
 
 /* Desktop */
 @media (min-width: 1000px) {
-
   .skills-box {
     flex-direction: row;
     justify-content: space-around;
-  }
-
-  .skills-header {
-    margin-top: 6vh;
+    margin: 5vh 10vw 0vh 10vw;
   }
 
   .skills-list {
-    margin: 1.5vh 30vw 20vh 30vw; 
+    margin: 0%;
+    min-width: 20vw;
+    align-items: center;
+  }
+
+  .skills-header {
+    margin-top: 30vh;
   }
 
   .skills-banner {
-    width: 100%;
-    top: 103vh;
-  }  
+    width: 100vw;
+    top: 102vh;
+    max-height: 120%;
+  }
 }
 

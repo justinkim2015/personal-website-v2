@@ -44,7 +44,7 @@
   }
 
   .project-header {
-    margin: 55vh 0vw 5vh 0vw;
+    margin: 50vh 0vw 5vh 0vw;
     font-size: 3rem;
   }
 
@@ -72,6 +72,26 @@
 
 /* Desktop */
 @media (min-width: 1000px) {
+  .projects {
+    display: grid;
+  }
+
+  .project-card {
+    flex-direction: column;
+    max-width: 38vw;
+    min-height: 38vw;
+  }
+
+  .project-image {
+    width: 35vw;
+    height: 35vw;
+    margin: 0%;
+  }
+
+  .project-body {
+    margin: 0;
+  }
+  
   .project-header {
     margin-bottom: 10vh;
   }
@@ -83,8 +103,8 @@
   }
   
   .project-description {
-    padding-top: 0.5vh;
     font-size: 26px;
+    margin: 0%;
   }
 
   .skills-banner {
