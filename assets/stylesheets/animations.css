@@ -32,7 +32,7 @@ a:hover {
   white-space: nowrap;
   width: 0;
   animation: 
-    typing 1.5s steps(14, end) .5s forwards,
+    typing 1s steps(14, end) .5s forwards,
     /* typing .5s steps(14, end) .0005s forwards, */
     vanish 0.5s linear 2s forwards;
 }
@@ -42,15 +42,15 @@ a:hover {
   white-space: nowrap;
   width: 0;
   animation: 
-    create-cursor .5s linear 2s forwards,
-    typing 2.2s steps(40, end) 2.6s forwards,
+    create-cursor .5s linear 1.5s forwards,
+    typing 1.7s steps(40, end) 2.1s forwards,
     /* typing .5s steps(14, end) .0005s forwards, */
-    blink 1.7s infinite 4s;
+    blink 1.7s infinite 3.5s;
 }
 
 .appear {
   opacity: 0%;
-  animation: 1.5s linear 5.8s forwards running appear;
+  animation: 0.5s linear 5s forwards running appear;
   /* animation: 0.5s linear 0.1s forwards running appear; */
 }
 
