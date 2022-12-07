@@ -24,6 +24,14 @@ body {
   justify-content: center;
 }
 
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  font-size: 1rem;
+}
+
 .icons {
   display: flex;
   align-items: center;
