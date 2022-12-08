@@ -55,6 +55,10 @@ body {
   overflow: hidden;
 }
 
+.green-text {
+  color: #23CE6B;
+}
+
 .project-header, .profile-header, .skills-header {
   width: 100vw;
   height: 10vh;
