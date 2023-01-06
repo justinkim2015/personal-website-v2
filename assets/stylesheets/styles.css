@@ -12,6 +12,13 @@ body {
   color: #EFF2F1;
 }
 
+.hidden {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
 .flex {
   display: flex;
   flex-direction: column;

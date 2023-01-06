@@ -54,6 +54,7 @@
               <li><a href="#skills">Skills</a></li>
               <li><a href="#projects-header">Projects</a></li>
               <li><a href="#contact-header">Contact</a></li>
+              <!-- <li><button>Japanese</button></li> -->
             </ul>
           </nav>
         </label>
@@ -65,6 +66,7 @@
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects-header">Projects</a></li>
           <li><a href="#contact-header">Contact</a></li>
+          <!-- <li><button id="jp-btn-desktop">Japanese</button></li> -->
         </ul>
       </div>
     </nav>
@@ -82,13 +84,22 @@
       </div>
       <div class="flex-container appear">
         <img src="assets/images/me.JPG" alt="picture-of-justin" class="profile-pic">
-        <p class="profile-content ">
+        <p class="profile-content eng">
           Full-stack developer living in Tokyo who likes to make stuff with
           his computer. My current focus is on delivering elegant and scaleable
           websites via Ruby on Rails. I'm fluent in English and I can speak business level Japanese.
           Please keep scrolling to see some of my projects and get in touch with me!
         </p>
       </div>
+
+      <div class="flex-container appear hidden">
+        <img src="assets/images/me.JPG" alt="picture-of-justin" class="profile-pic">
+        <p class="profile-content jp">
+          東京に住む、コンピュータで何かを作るのが好きなフルスタック開発者。現在はRuby on RailsとReactを使って、エレガントでスケーラブルなウェブサイトを
+          提供することに重点を置いています。英語は流暢で、ビジネスレベルの日本語を話すことができます。 私のプロジェクトのいくつかを見るためにスクロールを続けてください。
+        </p>
+      </div>
+
     </section>
 
     <section class="skills flex" id="skills">
@@ -132,8 +143,12 @@
               <a href="https://github.com/justinkim2015/social-media-clone#summary" class="devicon-github-original colored icon-small"></a>
             </div>
           </div>
-          <div class="project-description">
+          <div class="project-description eng">
             I made this with Ruby on Rails and hosted on Render.  This is a social media site where one can post, add friends, and upload photos.
+          </div>
+
+          <div class="project-description jp hidden">
+            Ruby on Railsで作り、Renderでホスティングしています。 これは、投稿したり、友人を追加したり、写真をアップロードしたりできるソーシャルメディアサイトです。
           </div>
         </div>
       </div>
@@ -148,8 +163,12 @@
               <a href="https://github.com/justinkim2015/karaoke-song-organizer#karaoke-song-organizer" class="devicon-github-original colored icon-small"></a>
             </div>
           </div>
-          <div class="project-description">
+          <div class="project-description eng">
             This Ruby on Rails application keeps track of karaoke songs and stores.  By using several Google APIs, Genius API, an IP geocoding API, and webscraping it is able to find and save song lyrics and nearby karaoke stores. 
+          </div>
+
+          <div class="project-description jp hidden">
+            このRuby on Railsアプリケーションは、カラオケの曲と店舗を記録します。 いくつかのGoogle API、Genius API、IP Geocoding API、およびウェブスクレイピングを使用することで、曲の歌詞と近くのカラオケ店を検索して保存することができます。
           </div>
         </div>
       </div>
@@ -164,9 +183,14 @@
               <a href="https://github.com/justinkim2015/ipad-weather-app" class="devicon-github-original colored icon-small"></a>
             </div>
           </div>
-          <div class="project-description">
+          <div class="project-description eng">
             This is a single-page weather application made with ReactJS and vanilla CSS. 
             By leveraging the data of a Geolocation API and a weather API this app shows you real-time data of the weather in your area.
+          </div>
+
+          <div class="project-description jp hidden">
+            ReactJSとvanilla CSSで作られたシングルページの天気予報アプリです。Geolocation APIとweather APIからのデータを使って、
+            このアプリはあなたの地域の天気のデータをリアルタイムで表示します。
           </div>
         </div>
       </div>
@@ -181,8 +205,12 @@
               <a href="https://github.com/justinkim2015/chess" class="devicon-github-original colored icon-small"></a>
             </div>
           </div>
-          <div class="project-description">
+          <div class="project-description eng">
             This is a two-player chess game built in Ruby using OOP principles.  
+          </div>
+
+          <div class="project-description jp hidden">
+            このゲームは、RubyでOOPの原則に基づいて作られた2人用のチェスゲームです。 
           </div>
         </div>
       </div>
@@ -192,9 +220,15 @@
       <div class="flex contact-info">
         <div class="contact-info-box">
           <h2 class="contact-header flex" id="contact-header">Contact me</h2>
-          <p class="contact-message">
+          
+          <p class="contact-message eng">
             If you would like to work together or get in contact I'm available on LinkedIn or via email!
           </p>
+
+          <p class="contact-message jp hidden">
+            もし、一緒に仕事をしたり、連絡を取りたいのであれば、LinkedInかEメールでご連絡ください。
+          </p>
+
           <p class="contact-email">
             Justinjkim2015@gmail.com
           </p>
@@ -210,7 +244,7 @@
       
     </footer>
   </div>
-
   <a href="#" class="top">Up</a>
+  <script src="./main.js"></script>  
 </body>
 </html>
